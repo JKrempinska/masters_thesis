@@ -1,0 +1,18 @@
+# Data & Models
+data/
+datasets/
+models/
+checkpoints/
+runs/
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Caches & Environments
+.venv/
+__pycache__/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
