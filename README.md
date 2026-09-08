@@ -11,6 +11,7 @@ Master's thesis research repository exploring output stochasticity, variance qua
 * [Thesis PRD & Prospectus](docs/prd.md): Comprehensive thesis proposal, research questions, experimental design, and sprint schedule.
 * [Sandbox Documentation](docs/sandbox.md): Execution sandbox architecture, interfaces, and usage guide.
 * [Tasks & Masking Documentation](docs/tasks.md): Synthetic missingness mechanisms, NRMSE evaluation, and task definitions.
+* [Inference Documentation](docs/inference.md): Unified local and cloud LLM inference engine, hyperparameter grid, and offline test doubles.
 
 ## Quickstart
 
