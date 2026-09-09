@@ -9,6 +9,7 @@ Master's thesis research repository exploring output stochasticity, variance qua
 ## Documentation
 
 * [Thesis PRD & Prospectus](docs/prd.md): Comprehensive thesis proposal, research questions, experimental design, and sprint schedule.
+* [AI Agent Guidelines](AGENTS.md): Mandatory guidelines and standards for AI coding agents working on this repository (branch verification, coding standards, systematic commits).
 * [Sandbox Documentation](docs/sandbox.md): Execution sandbox architecture, interfaces, and usage guide.
 * [Tasks & Masking Documentation](docs/tasks.md): Synthetic missingness mechanisms, NRMSE evaluation, and task definitions.
 * [Inference Documentation](docs/inference.md): Unified local and cloud LLM inference engine, hyperparameter grid, and offline test doubles.
@@ -29,6 +30,12 @@ uv run ruff format --check
 uv run mypy src tests
 ```
 
+## Contributing & Agent Guidelines
+
+All human contributors and AI agents must follow the repository standards outlined in [AGENTS.md](AGENTS.md):
+* **Branch Verification**: Always check current branch and confirm before creating new branches or modifying code.
+* **Strict Quality Checks**: 100% type-annotated Python 3.12 (`mypy`), linted and formatted with `ruff`, accompanied by unit tests (`pytest`).
+* **Conventional Commits**: Systematic, atomic commits using the [Conventional Commits](https://www.conventionalcommits.org/) format.
 ## Contributing & CI
 
 Pull requests targeting `main` automatically run continuous integration checks via GitHub Actions:
