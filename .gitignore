@@ -16,3 +16,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ipynb_checkpoints/
+
+# OS generated
+.DS_Store
+*.swp
